@@ -28,8 +28,9 @@ let GlobalCounter = 0;
 let NumberOfQuestions;
 let FileFound = false;
 
-const testButton = document.getElementById("testButton");
 
+const testButton = document.getElementById("testButton");
+if (testButton){
 testButton.addEventListener("click", function() {
 
     fetch("https://script.google.com/macros/s/AKfycbw50gxzBfWtKGZaBfVYQgVNBbdbOz-JU62KPJwX7UwfUISlPDF-Izap8OdCSHMg8fY2/exec", {
@@ -38,6 +39,7 @@ testButton.addEventListener("click", function() {
     });
 
 });
+}
 
 
 console.log('HEllo')
