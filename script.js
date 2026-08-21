@@ -29,7 +29,7 @@ let NumberOfQuestions;
 let FileFound = false;
 
 
-const testButton = document.getElementById("testButton");
+\* testButton = document.getElementById("testButton");
 if (testButton){
 testButton.addEventListener("click", function() {
 
@@ -39,7 +39,7 @@ testButton.addEventListener("click", function() {
     });
 
 });
-}
+}*\
 
 
 console.log('HEllo')
