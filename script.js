@@ -28,8 +28,7 @@ let GlobalCounter = 0;
 let NumberOfQuestions;
 let FileFound = false;
 
-
-\* testButton = document.getElementById("testButton");
+testButton = document.getElementById("testButton");
 if (testButton){
 testButton.addEventListener("click", function() {
 
@@ -39,7 +38,7 @@ testButton.addEventListener("click", function() {
     });
 
 });
-}*\
+}
 
 
 console.log('HEllo')
